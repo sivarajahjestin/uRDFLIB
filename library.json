@@ -1,0 +1,20 @@
+{
+    "name": "uRDFLib",
+    "version": "0.1",
+    "keywords": [
+        "CBOR",
+        "RDF"
+    ],
+    "sentence": "RDF library for constrained devices",
+    "author": "Victor Charpenay <victor.charpenay@emse.fr>",
+    "maintainer": "Loris Croce <loris.croce@inrae.fr>",
+    "paragraph": "RDF library designed to be an alternative to RDFLib for constrained devices. It can be used both as a C native library or as a MicroPython module.",
+    "category": "Data Processing",
+    "url": "https://gitlab.com/coswot/constrained-servient/urdflib",
+    "architectures": [
+        "*"
+    ],
+    "dependencies": {
+        "locroce/libcbor": "*"
+    }
+}
